@@ -1,0 +1,101 @@
+
+      #back {
+        background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgb(232, 178, 28), rgba(0,0,0,0.7));
+      }
+      #back > div {
+        display: flex;
+        justify-content: space-around;
+        height: 70vh;
+        align-items: center;
+      }
+      #back > div > div {
+        width: 30%;
+        height: 70%;
+        transition: transform 400ms,border 200ms;;
+        cursor: pointer;
+        margin-top: 5%;
+      }
+      .card {
+        transition: transform 200ms,border 200ms;
+        cursor: pointer;
+      }
+      .card:hover {
+        transform: scale(1.1);
+        border: 2px solid rgb(232, 178, 28);
+      }
+      #back > div > div:hover {
+        transform: scale(1.1);
+        border:2px solid rgb(232, 178, 28);
+      }
+      #chawla {
+        margin-top: 9%;
+      }
+
+      .chawlaitems {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+      }
+      .chawlaitems > div {
+        width: 25%;
+        height: fit-content;
+      }
+
+      #king {
+        margin-top: 9%;
+      }
+      .kingitems {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+      }
+      .kingitems > div {
+        width: 25%;
+        height: fit-content;
+      }
+
+      #sood {
+        margin-top: 9%;
+      }
+      .sooditems {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+      }
+      .sooditems > div {
+        width: 25%;
+        height: fit-content;
+      }
+      #cart{
+        margin-top: 9%;
+      }
+      table{
+        width: 100%;
+        
+      }
+      td{
+        border: 1px solid black;
+        padding: 10px;
+        
+      }
+      #items,#amt{
+        margin-right: 3%;
+      }
+      #grtxt1{
+        color:rgb(232, 178, 28)
+      }
+      #foot{
+        background-color: rgba(0,0,0,0.7);
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+      }
+      #foot>div{
+        height: 80%;
+      }
+      #foot>div>p{
+        color: rgb(232, 178, 28);
+      }
